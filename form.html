@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body bgcolor="lightgreen"><center>
+	<h2>REGISTRATION</h2>
+	<form action="Success.html"method="pOST">
+		<table border="0px"cellpadding="7px"cellspacing="0px">
+			<tr>
+				<td><label>Name:</label></td>
+				<td><input type="text" required></td>
+			</tr>
+					<tr>
+						<td><label>Password:</label></td>
+						<td><input type="Password"></td>
+					</tr>
+			<tr>
+				<td><label>Email:</label></td>
+				<td><input type="Email" required></td>
+			</tr>
+			
+					<tr>
+						<td><label>DOB:</label></td>
+						<td><input type="date"></td>
+					</tr>
+			<tr>
+				<td><label>Contect:</label></td>
+				<td><input type="number"></td>
+			</tr>
+					<tr>
+						<td><label>Gender:</label></td>
+						<td><input type="radio"name="Gender"value="male">Male
+						<input type="radio"name="Gender"value="female">Femle</td>
+					</tr>
+					
+					<tr>
+						<td><label>Time:</label></td>
+						<td><input type="Time"></td>
+					</tr>
+			
+					<tr>
+						<td><label>Address:</label></td>
+						<td><textarea rows="5"></textarea></td>
+					</tr>
+					
+					<tr>
+						<td>States:</td>
+						<td>
+							<select name="States"required>
+							<option selected disabled>Select one</option>
+							<option>Punjab</option>
+							<option>Haryana</option>
+							<option>Himachal Pradesh</option>
+							<option>Rajsthan</option>
+							<option>chhatisgarh</option>
+							<option>jharkand</option>
+							<option>Bihar</option>
+							<option>Uttar pradesh</option>
+							<option>Madhya pradesh</option>
+						</td>
+					</tr>	
+					
+								<tr>
+									<td><label>City:</label></td>
+									<td><input list="qwerty" required>
+										<datalist id="qwerty">
+											<option>Jalandhar</option>
+											<option>Hoshiarpur</option>
+											<option>Ludhiana</option>
+											<option>Amritsar</option>
+											<option>Bhthinda</option>
+											<option>Firojpur</option>
+											<option>Patiala</option>
+											<option>Barnala</option>
+										</datalist>
+									</td>
+								</tr>
+					
+				<tr>
+					<td><label>Color:</label></td>
+					<td><input type="Color"></td>
+				</tr>
+							<tr>
+								<td><input type="checkbox">T&C</td>
+							</tr>	
+				<tr>
+					<td><label>Range:</label></td>
+					<td><input type="Range"value="30"></td>
+				</tr>
+							<tr>
+								<td><label>Image:</label></td>
+								<td><input type="file"></td>
+							</tr>
+						
+		</table>
+			<button type="submit">Submit</button>
+			<button type="Reset">Reset</button>
+		</form></center>
+	</body>
+</html>
